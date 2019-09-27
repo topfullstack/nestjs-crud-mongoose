@@ -133,10 +133,4 @@ export class MongooseCrudService<T> extends CrudService<T> {
     await this.model.findByIdAndDelete(id)
     return data
   }
-  throwBadRequestException(msg?: any): BadRequestException {
-    throw new BadRequestException(msg)
-  }
-  throwNotFoundException(name: string): NotFoundException {
-    throw new NotFoundException(`${name} is not found.`)
-  }
 }

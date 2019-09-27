@@ -4,9 +4,10 @@
     "@types/mongoose": "^5.5.18"
   },
   "name": "nestjs-crud-mongoose",
-  "description": "mongoose service adapter for @nestjsx/crud",
-  "version": "1.0.0",
+  "description": "Mongoose service adapter for @nestjsx/crud",
+  "version": "1.0.2",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "devDependencies": {
     "@nestjsx/crud": "^4.2.0",
     "rxjs": "^6.5.3",
@@ -21,9 +22,13 @@
     "type": "git",
     "url": "git+https://github.com/topfullstack/nestjs-crud-mongoose.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "mongoose",
+    "crud",
+    "nestjs"
+  ],
+  "author": "wu-xuesong@qq.com",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/topfullstack/nestjs-crud-mongoose/issues"
   },
