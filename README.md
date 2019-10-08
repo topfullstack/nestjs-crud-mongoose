@@ -1,9 +1,24 @@
 # nestjs-crud-mongoose
-mongoose service adapter for @nestjsx/crud
+Mongoose/Typegoose service adapter for [@nestjsx/crud](https://github.com/nestjsx/crud)
+
+> Nest.js + typegoose video (chinese):
+> 
+> Nest.js + Typegoose 中文视频教程请移步哔哩哔哩全栈之巅:
+>
+> https://space.bilibili.com/341919508
 
 
 ## How to
 
+### Install
+
+```bash
+yarn add nestjs-crud-mongoose
+# or
+npm i nestjs-crud-mongoose
+```
+
+### Create a service based on a mongoose/typegoose model
 `/src/users/users.service.ts`
 
 ```ts
@@ -20,7 +35,9 @@ export class UsersService extends MongooseCrudService<User>{
   }
 }
 ```
-### OR
+
+OR
+
 ```ts
 // for mongoose users
 import { User } from "../../common/users/user.model";
@@ -37,7 +54,7 @@ export class UsersService extends MongooseCrudService<User>{
 
 ```
 
-Then, inject `UsersService` to your `UsersController`:
+### Inject `UsersService` to your `UsersController`:
 
 ```ts
 @Crud({
