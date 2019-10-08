@@ -4,11 +4,13 @@ mongoose service adapter for @nestjsx/crud
 
 ## How to
 
+`/src/users/users.service.ts`
+
 ```ts
 // for typegoose users
 import { User } from "../../common/users/user.model";
 import { Injectable, Inject } from "@nestjs/common";
-import { ModelType } from "@hasezoey/typegoose/lib/types";
+import { ModelType } from "@typegoose/typegoose/lib/types";
 import { MongooseCrudService } from "./mongoose-crud.service";
 
 @Injectable()
@@ -17,7 +19,9 @@ export class UsersService extends MongooseCrudService<User>{
     super(model)
   }
 }
-
+```
+### OR
+```ts
 // for mongoose users
 import { User } from "../../common/users/user.model";
 import { Injectable, Inject } from "@nestjs/common";
@@ -50,5 +54,5 @@ export class UsersController {
 - https://github.com/nestjsx/crud
 - https://github.com/nestjsx/crud/tree/master/packages/crud-typeorm
 
-## More Information
+## Related docs
 - https://github.com/nestjsx/crud/wiki/ServiceTypeorm
