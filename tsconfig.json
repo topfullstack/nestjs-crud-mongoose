@@ -4,7 +4,7 @@
     "declaration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es5",
+    "target": "es2018",
     "outDir": "dist"
   },
   "exclude": ["node_modules", "dist"]

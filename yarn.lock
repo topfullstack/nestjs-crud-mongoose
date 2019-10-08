@@ -32,6 +32,14 @@
   resolved "https://registry.npm.taobao.org/@nestjsx/util/download/@nestjsx/util-4.2.0.tgz#28a9eab85e01390dcc0d8fd32074256b08ff6c1d"
   integrity sha1-KKnquF4BOQ3MDY/TIHQlawj/bB0=
 
+"@typegoose/typegoose@^6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-6.0.2.tgz#33087f5c4d71f923d654b0dcc6a02e525dc0609f"
+  integrity sha512-8WKPJg1Of1gvga9kxewIIXmFpf5Bn3WtCYnJ9JEIHQhf8uDC+8LMnMrXdhYfLMRXW4qIicUJXhDlYsX3idVSUw==
+  dependencies:
+    loglevel "^1.6.4"
+    reflect-metadata "^0.1.13"
+
 "@types/bson@*":
   version "4.0.0"
   resolved "https://registry.npm.taobao.org/@types/bson/download/@types/bson-4.0.0.tgz#9073772679d749116eb1dfca56f8eaac6d59cc7a"
@@ -166,6 +174,11 @@ is-promise@^2.1:
   resolved "https://registry.npm.taobao.org/is-promise/download/is-promise-2.1.0.tgz#79a2a9ece7f096e80f36d2b2f3bc16c1ff4bf3fa"
   integrity sha1-eaKp7OfwlugPNtKy87wWwf9L8/o=
 
+loglevel@^1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.4.tgz#f408f4f006db8354d0577dcf6d33485b3cb90d56"
+  integrity sha512-p0b6mOGKcGa+7nnmKbpzR6qloPbrgLcnio++E+14Vo/XffOGwZtRpUhr8dTH/x2oCMmEoIU0Zwm3ZauhvYD17g==
+
 lru-queue@0.1:
   version "0.1.0"
   resolved "https://registry.npm.taobao.org/lru-queue/download/lru-queue-0.1.0.tgz#2738bd9f0d3cf4f84490c5736c48699ac632cda3"
@@ -196,6 +209,11 @@ next-tick@1, next-tick@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/next-tick/download/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
+
+reflect-metadata@^0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
+  integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
 
 rxjs@^6.5.3:
   version "6.5.3"

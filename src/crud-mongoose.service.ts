@@ -2,13 +2,13 @@
 import { CrudRequest, CreateManyDto, GetManyDefaultResponse, CrudService } from "@nestjsx/crud";
 import { BadRequestException, NotFoundException } from "@nestjs/common";
 import { Model, Document } from 'mongoose'
-import { ModelType } from "@hasezoey/typegoose/lib/types";
+import { ModelType } from "@typegoose/typegoose/lib/types";
 
 
 export class MongooseCrudService<T> extends CrudService<T> {
 
   constructor(public model: Model<any> | ModelType<{}> ) {
-    super()    
+    super()
   }
 
   buildQuery(req: CrudRequest) {
